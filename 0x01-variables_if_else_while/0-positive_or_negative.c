@@ -1,6 +1,6 @@
 #include <stdio.h>
+#include <stdlib.h> // Include the stdlib.h header for srand() and rand()
 #include <time.h>
-/* more headers goes there */
 
 int main(void)
 {
@@ -14,6 +14,6 @@ int main(void)
         printf("%d is %s\n", n, "zero");
     else
         printf("%d is %s\n", n, "negative");
-    
+
     return (0);
 }
