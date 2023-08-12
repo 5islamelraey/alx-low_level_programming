@@ -1,7 +1,9 @@
 #include <stdio.h>
 #include <stdlib.h> /* Include the stdlib.h header for srand() and rand() */
 #include <time.h>
-
+/**
+ * This program generates a random number and determines if it is positive, zero, or negative.
+ */
 int main(void)
 {
 	int n;
