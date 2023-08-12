@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <stdlib.h> // Include the stdlib.h header for srand() and rand()
+#include <stdlib.h> /* Include the stdlib.h header for srand() and rand()*/
 #include <time.h>
 
 int main(void)
