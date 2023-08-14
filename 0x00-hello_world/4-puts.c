@@ -2,7 +2,7 @@
 
 /**
  * main - The entry point
- * Description: A C pro that print a statment 
+ * Description: A C pro which prints a statment
  * Return: Always return 0
 */
 
