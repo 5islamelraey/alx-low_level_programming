@@ -3,10 +3,7 @@
 #include <time.h>
 
 /**
- * This program generates a random number and determines if it is positive,
- * zero, or negative.
- *
- * @return Returns 0 to indicate successful execution.
+ * This program generates a random number and determines if it is positive, zero, or negative.
  */
 int main(void)
 {
@@ -21,5 +18,6 @@ int main(void)
     else
         printf("%d is %s\n", n, "negative");
 
-    return 0;
+    return (0);
 }
+
