@@ -6,9 +6,9 @@
  * Return: 1 if upper, 0 if not
 */
 
-int _isupper(c)
+int _isupper(int c)
 {
-	if (c >= 'A' && 'C' <= 90)
+	if (c >= 'A' && c <= 'Z')
 		return (1);
 	else
 		return (0);
