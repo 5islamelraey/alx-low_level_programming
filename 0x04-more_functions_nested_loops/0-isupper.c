@@ -2,13 +2,13 @@
 
 /**
  * _isupper - checks for uppercase character.
- * @cha: the input
+ * @c: the input
  * Return: 1 if upper, 0 if not
 */
 
-int _isupper(cha)
+int _isupper(c)
 {
-	if (cha >= 65 && cha <= 90)
+	if (c >= 65 && c <= 90)
 		return (1);
 	else
 		return (0);
