@@ -24,15 +24,12 @@ int islower(char c)
 int isdelimiter(char c)
 {
 	int i;
-	char delimiter[] = "\t\n,.!?\"(){}";
+	char delimiter[] = " \t\n,.!?\"(){}";
 
 	for (i = 0; i < 12; i++)
-	{
 		if (c == delimiter[i])
 			return (1);
-		else
-			return (0);
-	}
+	return (0);
 }
 
 
